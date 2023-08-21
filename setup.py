@@ -6,7 +6,6 @@ HYPEN_E_DOT = '-e .'
 
 # get_requirements function to install the libraries
 def get_requirements(file_path:str)->List[str]:
-    
     """
     this function will return the list of requirement 
     """
@@ -23,7 +22,7 @@ def get_requirements(file_path:str)->List[str]:
 
 
 
-# we are setting the setup here 
+# we are setting the setup here  
 
 setup(
     name='ML_Project',
@@ -32,5 +31,4 @@ setup(
     author_email='aakashgpt11@gmail.com',
     packages=find_packages(),
     install_requires=get_requirements('requirements.txt')
-
 )
